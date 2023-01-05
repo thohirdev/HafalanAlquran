@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+
 import type {Node} from 'react';
 import {
   SafeAreaView,
@@ -82,7 +83,7 @@ const App: () => Node = () => {
           <Section title="HafalanAlquran">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug">
+          <Section title="Kelompok Dua">
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
